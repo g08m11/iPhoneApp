@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3F212518014C85007F3129 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3F212418014C85007F3129 /* UIKit.framework */; };
+		CF3F212718014C85007F3129 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3F212618014C85007F3129 /* Foundation.framework */; };
+		CF3F212918014C85007F3129 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3F212818014C85007F3129 /* CoreGraphics.framework */; };
+		CF3F212F18014C85007F3129 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF3F212D18014C85007F3129 /* InfoPlist.strings */; };
+		CF3F213118014C85007F3129 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3F213018014C85007F3129 /* main.m */; };
+		CF3F213518014C85007F3129 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3F213418014C85007F3129 /* AppDelegate.m */; };
+		CF3F213718014C85007F3129 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3F213618014C85007F3129 /* Default.png */; };
+		CF3F213918014C85007F3129 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3F213818014C85007F3129 /* Default@2x.png */; };
+		CF3F213B18014C85007F3129 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3F213A18014C85007F3129 /* Default-568h@2x.png */; };
+		CF3F213E18014C85007F3129 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3F213C18014C85007F3129 /* MainStoryboard.storyboard */; };
+		CF3F214118014C85007F3129 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3F214018014C85007F3129 /* FirstViewController.m */; };
+		CF3F214318014C85007F3129 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3F214218014C85007F3129 /* first.png */; };
+		CF3F214518014C85007F3129 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3F214418014C85007F3129 /* first@2x.png */; };
+		CF3F214818014C85007F3129 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3F214718014C85007F3129 /* SecondViewController.m */; };
+		CF3F214A18014C85007F3129 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3F214918014C85007F3129 /* second.png */; };
+		CF3F214C18014C85007F3129 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3F214B18014C85007F3129 /* second@2x.png */; };
+		CF3F215418014C85007F3129 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3F215318014C85007F3129 /* SenTestingKit.framework */; };
+		CF3F215518014C85007F3129 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3F212418014C85007F3129 /* UIKit.framework */; };
+		CF3F215618014C85007F3129 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3F212618014C85007F3129 /* Foundation.framework */; };
+		CF3F215E18014C86007F3129 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF3F215C18014C86007F3129 /* InfoPlist.strings */; };
+		CF3F216118014C86007F3129 /* laststepappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3F216018014C86007F3129 /* laststepappTests.m */; };
+		CF3F216D1801505E007F3129 /* plan1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3F216C1801505E007F3129 /* plan1.png */; };
+		CF3F216F180154C1007F3129 /* bag_1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3F216E180154C1007F3129 /* bag_1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF3F215718014C86007F3129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3F211918014C85007F3129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3F212018014C85007F3129;
+			remoteInfo = laststepapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF3F212118014C85007F3129 /* laststepapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = laststepapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3F212418014C85007F3129 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF3F212618014C85007F3129 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF3F212818014C85007F3129 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF3F212C18014C85007F3129 /* laststepapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "laststepapp-Info.plist"; sourceTree = "<group>"; };
+		CF3F212E18014C85007F3129 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF3F213018014C85007F3129 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF3F213218014C85007F3129 /* laststepapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "laststepapp-Prefix.pch"; sourceTree = "<group>"; };
+		CF3F213318014C85007F3129 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF3F213418014C85007F3129 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF3F213618014C85007F3129 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF3F213818014C85007F3129 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CF3F213A18014C85007F3129 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF3F213D18014C85007F3129 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CF3F213F18014C85007F3129 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CF3F214018014C85007F3129 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CF3F214218014C85007F3129 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		CF3F214418014C85007F3129 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		CF3F214618014C85007F3129 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CF3F214718014C85007F3129 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CF3F214918014C85007F3129 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		CF3F214B18014C85007F3129 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		CF3F215218014C85007F3129 /* laststepappTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = laststepappTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3F215318014C85007F3129 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CF3F215B18014C86007F3129 /* laststepappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "laststepappTests-Info.plist"; sourceTree = "<group>"; };
+		CF3F215D18014C86007F3129 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF3F215F18014C86007F3129 /* laststepappTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = laststepappTests.h; sourceTree = "<group>"; };
+		CF3F216018014C86007F3129 /* laststepappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = laststepappTests.m; sourceTree = "<group>"; };
+		CF3F216C1801505E007F3129 /* plan1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plan1.png; sourceTree = "<group>"; };
+		CF3F216E180154C1007F3129 /* bag_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bag_1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3F211E18014C85007F3129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F212518014C85007F3129 /* UIKit.framework in Frameworks */,
+				CF3F212718014C85007F3129 /* Foundation.framework in Frameworks */,
+				CF3F212918014C85007F3129 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F214E18014C85007F3129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F215418014C85007F3129 /* SenTestingKit.framework in Frameworks */,
+				CF3F215518014C85007F3129 /* UIKit.framework in Frameworks */,
+				CF3F215618014C85007F3129 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3F211818014C85007F3129 = {
+			isa = PBXGroup;
+			children = (
+				CF3F212A18014C85007F3129 /* laststepapp */,
+				CF3F215918014C86007F3129 /* laststepappTests */,
+				CF3F212318014C85007F3129 /* Frameworks */,
+				CF3F212218014C85007F3129 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3F212218014C85007F3129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3F212118014C85007F3129 /* laststepapp.app */,
+				CF3F215218014C85007F3129 /* laststepappTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3F212318014C85007F3129 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF3F212418014C85007F3129 /* UIKit.framework */,
+				CF3F212618014C85007F3129 /* Foundation.framework */,
+				CF3F212818014C85007F3129 /* CoreGraphics.framework */,
+				CF3F215318014C85007F3129 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF3F212A18014C85007F3129 /* laststepapp */ = {
+			isa = PBXGroup;
+			children = (
+				CF3F213318014C85007F3129 /* AppDelegate.h */,
+				CF3F213418014C85007F3129 /* AppDelegate.m */,
+				CF3F213C18014C85007F3129 /* MainStoryboard.storyboard */,
+				CF3F216C1801505E007F3129 /* plan1.png */,
+				CF3F213F18014C85007F3129 /* FirstViewController.h */,
+				CF3F214018014C85007F3129 /* FirstViewController.m */,
+				CF3F214218014C85007F3129 /* first.png */,
+				CF3F214418014C85007F3129 /* first@2x.png */,
+				CF3F216E180154C1007F3129 /* bag_1.png */,
+				CF3F214618014C85007F3129 /* SecondViewController.h */,
+				CF3F214718014C85007F3129 /* SecondViewController.m */,
+				CF3F214918014C85007F3129 /* second.png */,
+				CF3F214B18014C85007F3129 /* second@2x.png */,
+				CF3F212B18014C85007F3129 /* Supporting Files */,
+			);
+			path = laststepapp;
+			sourceTree = "<group>";
+		};
+		CF3F212B18014C85007F3129 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF3F212C18014C85007F3129 /* laststepapp-Info.plist */,
+				CF3F212D18014C85007F3129 /* InfoPlist.strings */,
+				CF3F213018014C85007F3129 /* main.m */,
+				CF3F213218014C85007F3129 /* laststepapp-Prefix.pch */,
+				CF3F213618014C85007F3129 /* Default.png */,
+				CF3F213818014C85007F3129 /* Default@2x.png */,
+				CF3F213A18014C85007F3129 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF3F215918014C86007F3129 /* laststepappTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3F215F18014C86007F3129 /* laststepappTests.h */,
+				CF3F216018014C86007F3129 /* laststepappTests.m */,
+				CF3F215A18014C86007F3129 /* Supporting Files */,
+			);
+			path = laststepappTests;
+			sourceTree = "<group>";
+		};
+		CF3F215A18014C86007F3129 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF3F215B18014C86007F3129 /* laststepappTests-Info.plist */,
+				CF3F215C18014C86007F3129 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3F212018014C85007F3129 /* laststepapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3F216418014C86007F3129 /* Build configuration list for PBXNativeTarget "laststepapp" */;
+			buildPhases = (
+				CF3F211D18014C85007F3129 /* Sources */,
+				CF3F211E18014C85007F3129 /* Frameworks */,
+				CF3F211F18014C85007F3129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = laststepapp;
+			productName = laststepapp;
+			productReference = CF3F212118014C85007F3129 /* laststepapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF3F215118014C85007F3129 /* laststepappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3F216718014C86007F3129 /* Build configuration list for PBXNativeTarget "laststepappTests" */;
+			buildPhases = (
+				CF3F214D18014C85007F3129 /* Sources */,
+				CF3F214E18014C85007F3129 /* Frameworks */,
+				CF3F214F18014C85007F3129 /* Resources */,
+				CF3F215018014C85007F3129 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3F215818014C86007F3129 /* PBXTargetDependency */,
+			);
+			name = laststepappTests;
+			productName = laststepappTests;
+			productReference = CF3F215218014C85007F3129 /* laststepappTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3F211918014C85007F3129 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "具志堅 雅";
+			};
+			buildConfigurationList = CF3F211C18014C85007F3129 /* Build configuration list for PBXProject "laststepapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF3F211818014C85007F3129;
+			productRefGroup = CF3F212218014C85007F3129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3F212018014C85007F3129 /* laststepapp */,
+				CF3F215118014C85007F3129 /* laststepappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3F211F18014C85007F3129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F212F18014C85007F3129 /* InfoPlist.strings in Resources */,
+				CF3F213718014C85007F3129 /* Default.png in Resources */,
+				CF3F213918014C85007F3129 /* Default@2x.png in Resources */,
+				CF3F213B18014C85007F3129 /* Default-568h@2x.png in Resources */,
+				CF3F213E18014C85007F3129 /* MainStoryboard.storyboard in Resources */,
+				CF3F214318014C85007F3129 /* first.png in Resources */,
+				CF3F214518014C85007F3129 /* first@2x.png in Resources */,
+				CF3F214A18014C85007F3129 /* second.png in Resources */,
+				CF3F214C18014C85007F3129 /* second@2x.png in Resources */,
+				CF3F216D1801505E007F3129 /* plan1.png in Resources */,
+				CF3F216F180154C1007F3129 /* bag_1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F214F18014C85007F3129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F215E18014C86007F3129 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF3F215018014C85007F3129 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3F211D18014C85007F3129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F213118014C85007F3129 /* main.m in Sources */,
+				CF3F213518014C85007F3129 /* AppDelegate.m in Sources */,
+				CF3F214118014C85007F3129 /* FirstViewController.m in Sources */,
+				CF3F214818014C85007F3129 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F214D18014C85007F3129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3F216118014C86007F3129 /* laststepappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF3F215818014C86007F3129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3F212018014C85007F3129 /* laststepapp */;
+			targetProxy = CF3F215718014C86007F3129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF3F212D18014C85007F3129 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3F212E18014C85007F3129 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF3F213C18014C85007F3129 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3F213D18014C85007F3129 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3F215C18014C86007F3129 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3F215D18014C86007F3129 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3F216218014C86007F3129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF3F216318014C86007F3129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3F216518014C86007F3129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laststepapp/laststepapp-Prefix.pch";
+				INFOPLIST_FILE = "laststepapp/laststepapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF3F216618014C86007F3129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laststepapp/laststepapp-Prefix.pch";
+				INFOPLIST_FILE = "laststepapp/laststepapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF3F216818014C86007F3129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/laststepapp.app/laststepapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laststepapp/laststepapp-Prefix.pch";
+				INFOPLIST_FILE = "laststepappTests/laststepappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CF3F216918014C86007F3129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/laststepapp.app/laststepapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "laststepapp/laststepapp-Prefix.pch";
+				INFOPLIST_FILE = "laststepappTests/laststepappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3F211C18014C85007F3129 /* Build configuration list for PBXProject "laststepapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3F216218014C86007F3129 /* Debug */,
+				CF3F216318014C86007F3129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3F216418014C86007F3129 /* Build configuration list for PBXNativeTarget "laststepapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3F216518014C86007F3129 /* Debug */,
+				CF3F216618014C86007F3129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF3F216718014C86007F3129 /* Build configuration list for PBXNativeTarget "laststepappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3F216818014C86007F3129 /* Debug */,
+				CF3F216918014C86007F3129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3F211918014C85007F3129 /* Project object */;
+}

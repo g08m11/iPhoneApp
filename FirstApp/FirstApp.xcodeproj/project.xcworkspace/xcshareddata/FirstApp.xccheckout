@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B81EAA2A-2ABD-4D86-A12D-42C80BDF17B4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FirstApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2A9ACA6E-EE45-4846-9A57-0AF28BF3C5BD</key>
+		<string>https://github.com/g08m11/iPhoneApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FirstApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2A9ACA6E-EE45-4846-9A57-0AF28BF3C5BD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/g08m11/sinatra.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2A9ACA6E-EE45-4846-9A57-0AF28BF3C5BD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2A9ACA6E-EE45-4846-9A57-0AF28BF3C5BD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FirstApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

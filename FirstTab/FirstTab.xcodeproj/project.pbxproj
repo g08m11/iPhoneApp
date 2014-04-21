@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF9659B718011BA300B95CA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9659B618011BA300B95CA9 /* UIKit.framework */; };
+		CF9659B918011BA300B95CA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9659B818011BA300B95CA9 /* Foundation.framework */; };
+		CF9659BB18011BA300B95CA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9659BA18011BA300B95CA9 /* CoreGraphics.framework */; };
+		CF9659C118011BA300B95CA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF9659BF18011BA300B95CA9 /* InfoPlist.strings */; };
+		CF9659C318011BA300B95CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9659C218011BA300B95CA9 /* main.m */; };
+		CF9659C718011BA300B95CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9659C618011BA300B95CA9 /* AppDelegate.m */; };
+		CF9659CA18011BA300B95CA9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9659C818011BA300B95CA9 /* MainStoryboard.storyboard */; };
+		CF9659CD18011BA300B95CA9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9659CC18011BA300B95CA9 /* FirstViewController.m */; };
+		CF9659CF18011BA300B95CA9 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9659CE18011BA300B95CA9 /* first.png */; };
+		CF9659D118011BA300B95CA9 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9659D018011BA300B95CA9 /* first@2x.png */; };
+		CF9659D418011BA300B95CA9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9659D318011BA300B95CA9 /* SecondViewController.m */; };
+		CF9659D618011BA300B95CA9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9659D518011BA300B95CA9 /* second.png */; };
+		CF9659D818011BA300B95CA9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9659D718011BA300B95CA9 /* second@2x.png */; };
+		CF9659E018011BA300B95CA9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9659DF18011BA300B95CA9 /* SenTestingKit.framework */; };
+		CF9659E118011BA300B95CA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9659B618011BA300B95CA9 /* UIKit.framework */; };
+		CF9659E218011BA300B95CA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9659B818011BA300B95CA9 /* Foundation.framework */; };
+		CF9659EA18011BA300B95CA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF9659E818011BA300B95CA9 /* InfoPlist.strings */; };
+		CF9659ED18011BA300B95CA9 /* FirstTabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9659EC18011BA300B95CA9 /* FirstTabTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF9659E318011BA300B95CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF9659A918011BA200B95CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF9659B118011BA200B95CA9;
+			remoteInfo = FirstTab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF9659B218011BA300B95CA9 /* FirstTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9659B618011BA300B95CA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF9659B818011BA300B95CA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF9659BA18011BA300B95CA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF9659BE18011BA300B95CA9 /* FirstTab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstTab-Info.plist"; sourceTree = "<group>"; };
+		CF9659C018011BA300B95CA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF9659C218011BA300B95CA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF9659C418011BA300B95CA9 /* FirstTab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstTab-Prefix.pch"; sourceTree = "<group>"; };
+		CF9659C518011BA300B95CA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF9659C618011BA300B95CA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF9659C918011BA300B95CA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CF9659CB18011BA300B95CA9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CF9659CC18011BA300B95CA9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CF9659CE18011BA300B95CA9 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		CF9659D018011BA300B95CA9 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		CF9659D218011BA300B95CA9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CF9659D318011BA300B95CA9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CF9659D518011BA300B95CA9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		CF9659D718011BA300B95CA9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		CF9659DE18011BA300B95CA9 /* FirstTabTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTabTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9659DF18011BA300B95CA9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CF9659E718011BA300B95CA9 /* FirstTabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstTabTests-Info.plist"; sourceTree = "<group>"; };
+		CF9659E918011BA300B95CA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF9659EB18011BA300B95CA9 /* FirstTabTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstTabTests.h; sourceTree = "<group>"; };
+		CF9659EC18011BA300B95CA9 /* FirstTabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTabTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF9659AF18011BA200B95CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9659B718011BA300B95CA9 /* UIKit.framework in Frameworks */,
+				CF9659B918011BA300B95CA9 /* Foundation.framework in Frameworks */,
+				CF9659BB18011BA300B95CA9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9659DA18011BA300B95CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9659E018011BA300B95CA9 /* SenTestingKit.framework in Frameworks */,
+				CF9659E118011BA300B95CA9 /* UIKit.framework in Frameworks */,
+				CF9659E218011BA300B95CA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF9659A718011BA200B95CA9 = {
+			isa = PBXGroup;
+			children = (
+				CF9659BC18011BA300B95CA9 /* FirstTab */,
+				CF9659E518011BA300B95CA9 /* FirstTabTests */,
+				CF9659B518011BA300B95CA9 /* Frameworks */,
+				CF9659B318011BA300B95CA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF9659B318011BA300B95CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF9659B218011BA300B95CA9 /* FirstTab.app */,
+				CF9659DE18011BA300B95CA9 /* FirstTabTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF9659B518011BA300B95CA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF9659B618011BA300B95CA9 /* UIKit.framework */,
+				CF9659B818011BA300B95CA9 /* Foundation.framework */,
+				CF9659BA18011BA300B95CA9 /* CoreGraphics.framework */,
+				CF9659DF18011BA300B95CA9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF9659BC18011BA300B95CA9 /* FirstTab */ = {
+			isa = PBXGroup;
+			children = (
+				CF9659C518011BA300B95CA9 /* AppDelegate.h */,
+				CF9659C618011BA300B95CA9 /* AppDelegate.m */,
+				CF9659C818011BA300B95CA9 /* MainStoryboard.storyboard */,
+				CF9659CB18011BA300B95CA9 /* FirstViewController.h */,
+				CF9659CC18011BA300B95CA9 /* FirstViewController.m */,
+				CF9659CE18011BA300B95CA9 /* first.png */,
+				CF9659D018011BA300B95CA9 /* first@2x.png */,
+				CF9659D218011BA300B95CA9 /* SecondViewController.h */,
+				CF9659D318011BA300B95CA9 /* SecondViewController.m */,
+				CF9659D518011BA300B95CA9 /* second.png */,
+				CF9659D718011BA300B95CA9 /* second@2x.png */,
+				CF9659BD18011BA300B95CA9 /* Supporting Files */,
+			);
+			path = FirstTab;
+			sourceTree = "<group>";
+		};
+		CF9659BD18011BA300B95CA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF9659BE18011BA300B95CA9 /* FirstTab-Info.plist */,
+				CF9659BF18011BA300B95CA9 /* InfoPlist.strings */,
+				CF9659C218011BA300B95CA9 /* main.m */,
+				CF9659C418011BA300B95CA9 /* FirstTab-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF9659E518011BA300B95CA9 /* FirstTabTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF9659EB18011BA300B95CA9 /* FirstTabTests.h */,
+				CF9659EC18011BA300B95CA9 /* FirstTabTests.m */,
+				CF9659E618011BA300B95CA9 /* Supporting Files */,
+			);
+			path = FirstTabTests;
+			sourceTree = "<group>";
+		};
+		CF9659E618011BA300B95CA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF9659E718011BA300B95CA9 /* FirstTabTests-Info.plist */,
+				CF9659E818011BA300B95CA9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF9659B118011BA200B95CA9 /* FirstTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9659F018011BA300B95CA9 /* Build configuration list for PBXNativeTarget "FirstTab" */;
+			buildPhases = (
+				CF9659AE18011BA200B95CA9 /* Sources */,
+				CF9659AF18011BA200B95CA9 /* Frameworks */,
+				CF9659B018011BA200B95CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstTab;
+			productName = FirstTab;
+			productReference = CF9659B218011BA300B95CA9 /* FirstTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF9659DD18011BA300B95CA9 /* FirstTabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9659F318011BA300B95CA9 /* Build configuration list for PBXNativeTarget "FirstTabTests" */;
+			buildPhases = (
+				CF9659D918011BA300B95CA9 /* Sources */,
+				CF9659DA18011BA300B95CA9 /* Frameworks */,
+				CF9659DB18011BA300B95CA9 /* Resources */,
+				CF9659DC18011BA300B95CA9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF9659E418011BA300B95CA9 /* PBXTargetDependency */,
+			);
+			name = FirstTabTests;
+			productName = FirstTabTests;
+			productReference = CF9659DE18011BA300B95CA9 /* FirstTabTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF9659A918011BA200B95CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "具志堅 雅";
+			};
+			buildConfigurationList = CF9659AC18011BA200B95CA9 /* Build configuration list for PBXProject "FirstTab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF9659A718011BA200B95CA9;
+			productRefGroup = CF9659B318011BA300B95CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF9659B118011BA200B95CA9 /* FirstTab */,
+				CF9659DD18011BA300B95CA9 /* FirstTabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF9659B018011BA200B95CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9659C118011BA300B95CA9 /* InfoPlist.strings in Resources */,
+				CF9659CA18011BA300B95CA9 /* MainStoryboard.storyboard in Resources */,
+				CF9659CF18011BA300B95CA9 /* first.png in Resources */,
+				CF9659D118011BA300B95CA9 /* first@2x.png in Resources */,
+				CF9659D618011BA300B95CA9 /* second.png in Resources */,
+				CF9659D818011BA300B95CA9 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9659DB18011BA300B95CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9659EA18011BA300B95CA9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF9659DC18011BA300B95CA9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF9659AE18011BA200B95CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9659C318011BA300B95CA9 /* main.m in Sources */,
+				CF9659C718011BA300B95CA9 /* AppDelegate.m in Sources */,
+				CF9659CD18011BA300B95CA9 /* FirstViewController.m in Sources */,
+				CF9659D418011BA300B95CA9 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9659D918011BA300B95CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9659ED18011BA300B95CA9 /* FirstTabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF9659E418011BA300B95CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF9659B118011BA200B95CA9 /* FirstTab */;
+			targetProxy = CF9659E318011BA300B95CA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF9659BF18011BA300B95CA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9659C018011BA300B95CA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF9659C818011BA300B95CA9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9659C918011BA300B95CA9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CF9659E818011BA300B95CA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9659E918011BA300B95CA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF9659EE18011BA300B95CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF9659EF18011BA300B95CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF9659F118011BA300B95CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstTab/FirstTab-Prefix.pch";
+				INFOPLIST_FILE = "FirstTab/FirstTab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF9659F218011BA300B95CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstTab/FirstTab-Prefix.pch";
+				INFOPLIST_FILE = "FirstTab/FirstTab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF9659F418011BA300B95CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FirstTab.app/FirstTab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstTab/FirstTab-Prefix.pch";
+				INFOPLIST_FILE = "FirstTabTests/FirstTabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CF9659F518011BA300B95CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FirstTab.app/FirstTab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstTab/FirstTab-Prefix.pch";
+				INFOPLIST_FILE = "FirstTabTests/FirstTabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF9659AC18011BA200B95CA9 /* Build configuration list for PBXProject "FirstTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9659EE18011BA300B95CA9 /* Debug */,
+				CF9659EF18011BA300B95CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9659F018011BA300B95CA9 /* Build configuration list for PBXNativeTarget "FirstTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9659F118011BA300B95CA9 /* Debug */,
+				CF9659F218011BA300B95CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF9659F318011BA300B95CA9 /* Build configuration list for PBXNativeTarget "FirstTabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9659F418011BA300B95CA9 /* Debug */,
+				CF9659F518011BA300B95CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF9659A918011BA200B95CA9 /* Project object */;
+}
